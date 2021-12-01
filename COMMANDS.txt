@@ -22,3 +22,21 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sha
    92  git branch -M main
    93  git push -u origin main
    94  history
+
+
+   create get_data.py
+   create load_data.py
+
+
+    110  python src/get_data.py 
+  111  python src/get_data.py 
+  112  python src/load_data.py 
+  113  python src/load_data.py 
+  114  git add .
+  115  git commit -m "load_data  commit"
+  116  git push -u origin main
+  117  dvc repro
+  118  dvc repro
+  119  dvc repro
+  120  git commit -m "load_data  commit"
+
