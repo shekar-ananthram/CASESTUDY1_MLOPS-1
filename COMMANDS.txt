@@ -8,6 +8,12 @@
    84  ls
    85  git init
    86  dvc init
+   
+      download 
+
+https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing
+
+
    87  dvc add data_given/winequality.csv 
    88  git add .
    89  git status 
