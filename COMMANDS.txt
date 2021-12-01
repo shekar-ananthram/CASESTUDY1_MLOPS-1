@@ -1,0 +1,18 @@
+ 77  conda create -n wineq_study python=3.8 -y
+   78  conda activate wineq_study
+   79  touch requirements.txt
+   80  pip install -r requirements.txt 
+   81  ls
+   82  python template.py
+   83  cd ..
+   84  ls
+   85  git init
+   86  dvc init
+   87  dvc add data_given/winequality.csv 
+   88  git add .
+   89  git status 
+   90  git commit -m "first commit"
+   91  git remote add origin https://github.com/vishymails/CASESTUDY1_MLOPS.git
+   92  git branch -M main
+   93  git push -u origin main
+   94  history
