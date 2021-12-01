@@ -10,8 +10,8 @@ stages:
       md5: 5f081583783704a16852cfdc0ea3bff1
       size: 669
     - path: src/load_data.py
-      md5: 9fcc771a1ee1cb06c615bc03710ea41e
-      size: 614
+      md5: 130106345e29bade319c396d50d47d73
+      size: 642
     outs:
     - path: data/raw/winequality.csv
       md5: d98e8f2eca228c11c4de1cc96866a54d
